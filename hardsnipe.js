@@ -166,8 +166,8 @@ async function sendTelegramMessage(
       }),
     };
 
-    bot.sendMessage("@hardsnipechecker", message, opts);
-    bot.sendMessage("@@HardSnipe", message, opts);
+    // bot.sendMessage("@hardsnipechecker", message, opts);
+    bot.sendMessage("@HardSnipe", message, opts);
     console.log(
       `Reporting ${transactionType.toLowerCase()} for: ${tokenAddress}`
     );
